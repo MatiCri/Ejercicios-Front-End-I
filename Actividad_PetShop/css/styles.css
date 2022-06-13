@@ -1,0 +1,137 @@
+.primerNav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#despliegue{
+    display: flex;
+    margin-right: 25px;
+}
+#despliegue li{
+    margin-right: 15px;
+}
+.segundonav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+}
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 409px;
+    background-image:url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+}
+.textoBanner{
+    text-align: center;
+    margin-right: 200px;
+}
+.textoBanner h1{
+    background-color: white;
+    padding: 10px;
+}
+.textoBanner button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.productosDestacados{
+    text-align: center;
+}
+#despliegue2{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    margin-right: 25px;
+}
+.imagenesProductos{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagenesProductos div{
+    text-align: center;
+}
+.precio{
+    color: orange;
+}
+
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datosContacto{
+    width: 20%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; 
+}
+
+.datosContacto input{
+    width: 100%;
+    border-radius: 2px solid #3C2313;
+    background-color: #3C2313;
+    color: white;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+.botonesContacto button{
+    margin: 15px;
+    padding: 5px 15px;
+    background-color: #F0A83E;
+    color: white;
+    border: none;
+}
+.suscribirse{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    color: white;
+}
+.suscribirse #datosmail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 35px;
+}
+.suscribirse #datosmail input{
+    padding: 5px 45px 5px 10px;
+}
+.suscribirse #datosmail button{
+    background-color: #3C2313 ;
+    color: white;
+    margin-left: 10px;
+}
+.datoslocal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C2313;
+    color: white;
+}
+.datoslocal h1, p{
+    margin: 0px;
+}
+.datoslocal li{
+    margin: 25px;
+}
+.datoslocal #nombrelocal{
+    display: flex;
+    align-items: center;
+    margin-right: 95px;
+}
+.derechos{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
