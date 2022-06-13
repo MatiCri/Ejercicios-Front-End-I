@@ -1,0 +1,47 @@
+.primerNav{
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#despliegue{
+    display: flex;
+    margin-right: 25px;
+}
+#despliegue li{
+    margin-right: 15px;
+}
+.principal{
+    display: flex;
+    margin: 45px 20px 45px 20px;
+    justify-content: center;
+}
+.imagenPizzero{
+    background-image: url(../img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+}
+.imagenPizzero h2{
+    margin-left: 20px;
+    color: red;
+}
+.imagenPizzero h2 span{
+    color: white;
+}
+.bestPizzas{
+    width: 491px;
+    height: 350px;
+}
+.bestPizzas h2{
+    text-align: center;
+    color: red;
+}
+.bestPizzas ol, h3{
+    margin-left: 50px;
+}
+#bestPizzasFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
