@@ -40,6 +40,7 @@
 .bestPizzas ol, h3{
     margin-left: 50px;
 }
+
 #bestPizzasFlex{
     display: flex;
     justify-content: space-between;
