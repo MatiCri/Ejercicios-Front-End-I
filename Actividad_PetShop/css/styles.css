@@ -51,7 +51,6 @@
     margin-right: 25px;
 }
 .imagenesProductos{
-    margin: 0px 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -134,4 +133,42 @@
     background-color: black;
     color: white;
     text-align: center;
+}
+.segundonav p{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .primerNav{
+        display: none;
+    }
+    #despliegue{
+        display: none;
+    }
+    .imagenesProductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .datoslocal{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .datoslocal #nombrelocal{
+        margin: 0;
+    }
+    .datoslocal #infocontacto{
+        text-align: center;
+    }
+    .datoslocal #infocontacto ul{
+        padding: 0px;
+    }
+    .segundonav p{
+        display:inline; 
+    }
+    .segundonav{
+        display: flex;
+        align-items: center;
+    }
 }
