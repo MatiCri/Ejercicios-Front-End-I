@@ -113,3 +113,38 @@
         align-items: center;
     }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+.login {
+    background-color: #00669F;
+    border: 1px solid #9C9C9C;
+    border-radius: 49.09px;
+    margin: 5% auto;
+    width: 954px;
+    height: 832px;
+    padding: 20px;
+}
+ 
+.login h1, p{
+    text-align: center;
+    color: white;
+}
+
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15.34px;
+    width: 100%;
+}
+
+fieldset {
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
