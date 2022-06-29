@@ -14,6 +14,9 @@ header{
     align-items: center;
     margin: 20px 10%;
 }
+p{
+    color:#B3B2B7;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -24,6 +27,9 @@ header{
 }
 .nav-bar ul li{
     margin: 8px;
+}
+.nav-bar li:hover{
+    color: #B3B2B7;
 }
 form>input{
     background-color: #F3603B;
@@ -36,6 +42,9 @@ form>input{
 form>input:hover{
     color: rgb(143, 148, 167);
 }
+.oculto{
+    display: none;
+}
 .section-1{
     display: flex;
     justify-content: space-between;
@@ -45,23 +54,31 @@ form>input:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 40%;
 }
 .section-1-div-1>h1{
     font-size: 36px;
-    margin-bottom: 8px;
+    margin-bottom: 28px;
 }
 .section-1-div-1>p{
-    margin-bottom: 8px;
+    margin-bottom: 28px;
 }
 .section-1-div-2{
     margin: 10px;
+}
+.section-1-div-2>img{
+    max-width: 100%;
 }
 .section-2{
     display: flex;
     justify-content: space-between;
     margin: 20px 15%;
 }
-.section-2-div-2>h1{
+.section-2-div-1{
+    padding: 30px 0px;
+    width: 100%;
+}
+.section-2-div-1>h1{
     font-size: 36px;
     margin-bottom: 15px;
     color: rgb(29, 30, 37);
@@ -70,17 +87,19 @@ form>input:hover{
     position: relative;
     margin: 20px 0px;
 }
+.listados-button-h3{
+    display: flex;
+}
+.listados-button-h3>h3{
+    align-self: center;
+}
 .listados button{
-    position: absolute;
     background-color: #F3603B;
     border: 0px solid  #F3603B;
     border-radius: 30px;
     padding: 10px 25px;
     color: white;
-}
-.listados>h3{
-    margin-left: 80px;
-    margin-bottom: 20px;
+    margin-right: 10px;
 }
 .listados>p{
     margin-left: 80px;
@@ -89,7 +108,7 @@ form>input:hover{
     font-style: normal;
 }
 .section-3{
-    margin: 20px 0px;
+    margin: 20px 20px;
 }
 .section-3-div-1{
     text-align: center;
@@ -213,3 +232,118 @@ form>input:hover{
     color: white;
 }
 
+
+
+@media (max-width: 780px){
+    .nav-bar{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 5%;
+    }
+    form>input{
+        display: none;
+    }
+    .oculto{
+        display: inline;
+    }
+    .section-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section-1-div-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-2-div-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-2-div-1>h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .section-2-div-1>p{
+        text-align: center;
+    }
+
+    .section-1-div-1>h1{
+        font-size: 30px;
+    }
+    .section-2-div-2>h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .section-2-div-2>p{
+        text-align: center;
+    }
+    .listados-button-h3{
+        background-color: #FDCAC9;
+        border-radius: 10px;
+    }
+    .listados>p{
+        margin-left: 0px;
+    }
+    .section-3-div-2{
+        margin: 0px 15px;
+    }
+    #perfil1, #perfil3{
+        display: none;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section1-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+    .section1-footer-text{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .section2-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+    .logo-iconos{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .iconos{
+        margin-bottom: 25px;
+    }
+    .footerlogo{
+        margin: 0px;
+    }
+    .listadofooter{
+        width: 80%;
+    }
+    .section2-footer>p{
+        bottom: 0px;
+        right: 100px;
+    }
+    
+}
